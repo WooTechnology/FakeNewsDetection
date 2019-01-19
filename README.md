@@ -29,8 +29,16 @@ __Prerequisites__
 - NLTK  
 - Matplotlib  
 
-__Moulded Dataset__  
-You will see that newly created dataset has only 2 classes as compared to 6 from original classes. Below is method used for reducing the number of classes.
+__Moulded Dataset__ 
+The given Data Contains some useless columns. Following are the coloumns that are Useless for our Problem statement and are droppped from the dataframe.
+1. Drop Useless Columns,  
+        i. Sno  
+        ii. barely_true_count  
+        iii. false_counts  
+        iv. half_true_counts  
+        v. mostly_true_counts  
+        vi. pants_on_fire_counts    
+2. You will see that newly created dataset has only 2 classes as compared to 6 from original classes. Below is method used for reducing the number of classes.
 
       Previous-Label    :    Converted-Label
          True           --        True
@@ -39,7 +47,7 @@ You will see that newly created dataset has only 2 classes as compared to 6 from
          Barely-true    --        False
          False          --        False
          Pants-fire     --        False 
-         
+- The Dataset Folder contains the Original data and the train_data.csv, test_data.csv, valid_data.csv are the cleaned and dropped datasets.
          
 __Screenshot of CountPlot__  
 Following Screenshots contains the Count plot of labels of the Following Data set available in the repo. 

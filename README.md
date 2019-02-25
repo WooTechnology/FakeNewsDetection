@@ -68,6 +68,34 @@ Following Screenshots contains the Count plot of labels of the Following Data se
 ![image](https://user-images.githubusercontent.com/34310411/51328441-65b21980-1a99-11e9-975c-7411b7771b6f.png)
 
 
+### Model Used : LSTM  
+LSTM is a recurrent neural network (RNN) architecture that REMEMBERS values over arbitrary intervals. LSTM is well-suited to classify, process and predict time series given time lags of unknown duration. Relative insensitivity to gap length gives an advantage to LSTM over alternative RNNs, hidden Markov models and other sequence learning methods.
+
+### *Architecture*
+
+![model_lstm](https://user-images.githubusercontent.com/34310411/53307310-0d9edc00-38bd-11e9-9bef-dc773093a991.png)
+
+
+### Model Summary
+
+![image](https://user-images.githubusercontent.com/34310411/53307405-2d82cf80-38be-11e9-8cb8-1fa7a738fa4b.png)
+
+- __Statistics while First Epoch__
+
+![image](https://user-images.githubusercontent.com/34310411/53307450-cb769a00-38be-11e9-98b4-beee9a1df7f2.png)
+
+- __Statistics while Last Epoch__
+
+![image](https://user-images.githubusercontent.com/34310411/53307455-e0532d80-38be-11e9-9677-ca0fe51c4ff3.png)
+
+
+
+
+
+### Results
+
+![image](https://user-images.githubusercontent.com/34310411/53307486-17294380-38bf-11e9-8223-47711aee114f.png)
+
 
 ### Project by : Rashid and Trisha  
 ### Mentor : Sarah Masud  
